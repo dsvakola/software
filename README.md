@@ -10,9 +10,11 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
 
 1. [📦 Archive & Compression Utilities](#-archive--compression-utilities)
    - [9-zip — Windows Archive Manager](#9-zip--windows-archive-manager)
-2. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-3. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-4. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+2. [🎓 Classroom & Education](#-classroom--education)
+   - [Observer — Classroom Monitoring & Testing](#observer--classroom-monitoring--testing)
+3. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+4. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+5. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
@@ -66,6 +68,28 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 | Archive Inspection & Self-Healing Indicator | Archive Properties & VSA Integrity Seal |
 |:---:|:---:|
 | ![Archive Inspection](assets/9-zip/3-open-9z-archive.png) | ![Archive Properties](assets/9-zip/4-archive-properties.png) |
+
+---
+
+## 🎓 Classroom & Education
+
+### Observer — Classroom Monitoring & Testing
+
+**Project Page:** [github.com/dsvakola/observer](https://github.com/dsvakola/observer)  
+**Availability:** Coming soon to the Microsoft Store • **Platform:** Windows 10 & 11 (64-bit)  
+**Editions:** Observer Faculty (teacher PC, paid) • Observer Student (student PCs, free)  
+**Technology Stack:** Tauri v2, Rust (MSVC), WebView2  
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/observer/blob/main/PRIVACY.md)
+
+#### 📖 Overview
+
+**Observer** lets a teacher run a whole computer lab from one PC: live pictures of every student screen, a sharp low-delay big view, remote control, screen lock, messages, file transfer, help calls, stars, groups, and switching PCs on and off over the network. It also includes question banks and tests, with marking and records for every student.
+
+Everything stays inside the school's own network: no internet is needed, and every link between the PCs is encrypted.
+
+| Main Window | Big Live View |
+|:---:|:---:|
+| ![Observer main window](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-main.webp) | ![Observer big live view](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-viewer.webp) |
 
 ---
 
