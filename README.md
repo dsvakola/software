@@ -109,9 +109,12 @@ Everything stays inside the school's own network: no internet is needed, and eve
 **VSA Simulator** lets school and college students, researchers and hobbyists build a circuit on a virtual breadboard, load the program they wrote in the Arduino IDE, Keil or Thonny, and watch it run: LEDs glow, motors turn, displays show text, sensors respond, and parts that get too much current burn out. It runs your real compiled program, works fully offline, and needs no account.
 
 - **Boards:** Arduino Uno, Nano and Mega 2560, ESP32, ESP8266 and Raspberry Pi Pico W (Arduino or MicroPython).
-- **Chips:** 8051/8052 (AT89C51/52, AT89S51/52) and ATmega8, ATmega16, ATmega32 and ATmega128, bare or on development boards.
-- **Parts:** power supplies, resistors, switches, LEDs, displays, sensors, motors, relays, transistors and more.
-- Built-in User Guide, ready-made examples with circuits, and a small download (a few MB).
+- **Chips:** 8051/8052 (AT89C51/52, AT89S51/52) and ATmega8, ATmega16, ATmega32 and ATmega128, bare or on development boards. The ATmega examples come in two styles, Arduino IDE and plain C for AVR Studio 4/6, so teachers can show that the ATmega is the heart of the Arduino boards.
+- **Parts:** power supplies, resistors, switches, LEDs, displays (7-segment, I2C LCD, OLED), sensors, motors, servos, relays, transistors and more, with real breadboard behaviour.
+- **Learning:** 214 ready-made examples with tidy circuits and fully commented code (File > Examples), a Serial Monitor / Shell that shows the printed output, a source-code viewer with a Copy button, and a built-in User Guide.
+- **Light and private:** a download of only a few MB, fully offline, no account, nothing sent anywhere.
+
+**Source code and examples:** [github.com/dsvakola/VSA-Simulator](https://github.com/dsvakola/VSA-Simulator) • **Website:** [vsa.edu.in](https://vsa.edu.in/)
 
 ---
 
