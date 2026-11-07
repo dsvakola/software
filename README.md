@@ -12,9 +12,11 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
    - [9-zip — Windows Archive Manager](#9-zip--windows-archive-manager)
 2. [🎓 Classroom & Education](#-classroom--education)
    - [Observer — Classroom Monitoring & Testing](#observer--classroom-monitoring--testing)
-3. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-4. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-5. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+3. [🔌 Electronics & Circuit Simulation](#-electronics--circuit-simulation)
+   - [VSA Simulator — Circuit & Microcontroller Simulator](#vsa-simulator--circuit--microcontroller-simulator)
+4. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+5. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+6. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
@@ -90,6 +92,26 @@ Everything stays inside the school's own network: no internet is needed, and eve
 | Main Window | Big Live View |
 |:---:|:---:|
 | ![Observer main window](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-main.webp) | ![Observer big live view](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-viewer.webp) |
+
+---
+
+## 🔌 Electronics & Circuit Simulation
+
+### VSA Simulator — Circuit & Microcontroller Simulator
+
+**Project Page:** [github.com/dsvakola/VSA-Simulator](https://github.com/dsvakola/VSA-Simulator)  
+**Availability:** Coming soon to the Microsoft Store • **Platform:** Windows 10 & 11 (64-bit)  
+**Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
+**License:** [GNU General Public License v3.0](https://github.com/dsvakola/VSA-Simulator/blob/main/LICENSE)
+
+#### 📖 Overview
+
+**VSA Simulator** lets school and college students, researchers and hobbyists build a circuit on a virtual breadboard, load the program they wrote in the Arduino IDE, Keil or Thonny, and watch it run: LEDs glow, motors turn, displays show text, sensors respond, and parts that get too much current burn out. It runs your real compiled program, works fully offline, and needs no account.
+
+- **Boards:** Arduino Uno, Nano and Mega 2560, ESP32, ESP8266 and Raspberry Pi Pico W (Arduino or MicroPython).
+- **Chips:** 8051/8052 (AT89C51/52, AT89S51/52) and ATmega8, ATmega16, ATmega32 and ATmega128, bare or on development boards.
+- **Parts:** power supplies, resistors, switches, LEDs, displays, sensors, motors, relays, transistors and more.
+- Built-in User Guide, ready-made examples with circuits, and a small download (a few MB).
 
 ---
 
