@@ -80,7 +80,7 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 ### Relax — Your data is safe!
 
 **Project Page:** [github.com/dsvakola/Relax](https://github.com/dsvakola/Relax)  
-**Availability:** Coming soon to the Microsoft Store (Rs. 299 one-time, 7-day free trial) • **Platform:** Windows 10 & 11 (64-bit)  
+**Availability:** Coming soon to the Microsoft Store (free) • **Platform:** Windows 10 & 11 (64-bit)  
 **Current Version:** `v2.1.0`  
 **Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
 **Privacy:** [Privacy Policy](https://github.com/dsvakola/Relax/blob/main/PRIVACY.md) • **Licence:** [NOTICE](https://github.com/dsvakola/Relax/blob/main/NOTICE.txt)
