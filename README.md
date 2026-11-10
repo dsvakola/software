@@ -10,13 +10,15 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
 
 1. [📦 Archive & Compression Utilities](#-archive--compression-utilities)
    - [9-zip — Windows Archive Manager](#9-zip--windows-archive-manager)
-2. [🎓 Classroom & Education](#-classroom--education)
+2. [💾 Backup & Synchronization](#-backup--synchronization)
+   - [Relax — Your data is safe!](#relax--your-data-is-safe)
+3. [🎓 Classroom & Education](#-classroom--education)
    - [Observer — Classroom Monitoring & Testing](#observer--classroom-monitoring--testing)
-3. [🔌 Electronics & Circuit Simulation](#-electronics--circuit-simulation)
+4. [🔌 Electronics & Circuit Simulation](#-electronics--circuit-simulation)
    - [VSA Simulator — Circuit & Microcontroller Simulator](#vsa-simulator--circuit--microcontroller-simulator)
-4. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-5. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-6. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+5. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+6. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+7. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
@@ -73,6 +75,27 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 
 ---
 
+## 💾 Backup & Synchronization
+
+### Relax — Your data is safe!
+
+**Project Page:** [github.com/dsvakola/Relax](https://github.com/dsvakola/Relax)  
+**Availability:** Coming soon to the Microsoft Store (Rs. 299 one-time, 7-day free trial) • **Platform:** Windows 10 & 11 (64-bit)  
+**Current Version:** `v2.1.0`  
+**Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/Relax/blob/main/PRIVACY.md) • **Licence:** [NOTICE](https://github.com/dsvakola/Relax/blob/main/NOTICE.txt)
+
+#### 📖 Overview
+
+**Relax** keeps important files safe on USB drives, external hard disks and other folders, simply and reliably, without the cloud. It compares two folders, shows every difference in a clear preview, and changes nothing until you click **Synchronize**. It works 100% offline: no account, no ads, no tracking, and nothing is ever sent anywhere.
+
+- **Compare and preview:** compare by date and size, or byte by byte, and see every difference side by side before anything happens. Right-click any item to change what happens to it.
+- **Four ways to back up:** *Update* (incremental: copy only new and changed files, delete nothing), *Mirror* (the backup becomes an exact copy), *Two-way* (keep two folders the same in both directions) and *Custom* (decide for each kind of difference).
+- **Safe by design:** every file is copied under a temporary name and renamed only when complete; deleted and replaced files go to the Recycle Bin or a versions folder; nothing is deleted when a source folder or drive is missing or empty; free space is checked first.
+- **Convenient:** saved backup jobs you open with one click, scheduled automatic backups (daily, weekly or at sign-in) through Windows Task Scheduler, include/exclude filters, pause and cancel, and a log of every backup.
+- **Light and fast:** a native Rust engine with a preview grid that handles hundreds of thousands of files, a small installer, and a runtime built in, so it runs on any Windows 10/11 PC.
+
+---
 ## 🎓 Classroom & Education
 
 ### Observer — Classroom Monitoring & Testing
