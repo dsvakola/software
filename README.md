@@ -16,9 +16,11 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
    - [Observer — Classroom Monitoring & Testing](#observer--classroom-monitoring--testing)
 4. [🔌 Electronics & Circuit Simulation](#-electronics--circuit-simulation)
    - [VSA Simulator — Circuit & Microcontroller Simulator](#vsa-simulator--circuit--microcontroller-simulator)
-5. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-6. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-7. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+5. [🏭 Industrial Automation & PLC Training](#-industrial-automation--plc-training)
+   - [PLC & SCADA Simulator — PLC Programming, Training Panel & SCADA](#plc--scada-simulator--plc-programming-training-panel--scada)
+6. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+7. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+8. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
@@ -138,6 +140,35 @@ Everything stays inside the school's own network: no internet is needed, and eve
 - **Light and private:** a download of only a few MB, fully offline, no account, nothing sent anywhere.
 
 **Source code and examples:** [github.com/dsvakola/VSA-Simulator](https://github.com/dsvakola/VSA-Simulator) • **Website:** [vsa.edu.in](https://vsa.edu.in/)
+
+---
+
+## 🏭 Industrial Automation & PLC Training
+
+### PLC & SCADA Simulator — PLC Programming, Training Panel & SCADA
+
+**Project Page:** [github.com/dsvakola/PLC-Simulator](https://github.com/dsvakola/PLC-Simulator)
+**Availability:** Coming soon to the Microsoft Store (free) • **Platform:** Windows 10 & 11 (64-bit)
+**Current Version:** `v0.1.2`
+**Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/PLC-Simulator/blob/main/privacy-policy.md) • **License:** [GNU General Public License v3.0](https://github.com/dsvakola/PLC-Simulator/blob/main/LICENSE)
+
+#### 📖 Overview
+
+**PLC & SCADA Simulator** is a complete PLC training kit on the PC, for students, teachers and hobbyists. Draw the PLC program as a function block diagram, wire push buttons, sensors, lamps and motors to a realistic PLC training panel, build an operator (SCADA) screen, and press F3: the PLC runs the program scan by scan in real time. Lamps light, motors turn, timers count, and every wire shows its signal — red for 1, blue for 0. It works fully offline, with no account and no data collection.
+
+- **Program:** function block diagram with inputs, outputs, markers, AND, OR, NOT, NAND, NOR, EXOR, EXNOR, on-delay, off-delay, on/off-delay, weekly and yearly timers, and analog amplifier, comparator and threshold blocks. Wires are drawn pin to pin, find their own right-angle path and can be rearranged; outputs can be wired back for latches.
+- **Control Panel:** a realistic training panel (PLC module, lamps Q1–Q4, switches I1–I4, input and output connectors) plus push buttons, toggle and limit switches, PNP and 2-wire sensors, a 0–10 V potentiometer, a PT100, lamps, buzzer, hooter, 24 V motor and contactor. The simulation follows the real wiring: a missing wire means no signal, and a short circuit switches the supply off like a fuse.
+- **SCADA screen:** operator screens with push buttons, switches, lamps, number displays, bar graphs, sliders, tanks, motors, valves and conveyors linked to PLC points — and the same screen live on another PC on the network, in any web browser.
+- **Learning:** ready examples for every instruction with their panel wiring, SCADA examples (motor start/stop, tank level, temperature control), a simulated clock for timers, and a built-in User Guide.
+
+| Program with live signals | Control Panel wiring |
+|:---:|:---:|
+| ![PLC & SCADA Simulator program](assets/plc-scada-simulator/1-program-latch.png) | ![PLC & SCADA Simulator control panel](assets/plc-scada-simulator/2-control-panel-tank.png) |
+
+| SCADA screen: tank level | SCADA screen: temperature control |
+|:---:|:---:|
+| ![SCADA tank level](assets/plc-scada-simulator/3-scada-tank-level.png) | ![SCADA temperature control](assets/plc-scada-simulator/4-scada-temperature.png) |
 
 ---
 
