@@ -103,10 +103,10 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 ### Observer — Classroom Monitoring & Testing
 
 **Project Page:** [github.com/dsvakola/observer](https://github.com/dsvakola/observer)  
-**Availability:** Coming soon to the Microsoft Store • **Platform:** Windows 10 & 11 (64-bit)  
-**Editions:** Observer Faculty (teacher PC, paid) • Observer Student (student PCs, free)  
+**Microsoft Store:** [Observer Faculty](https://apps.microsoft.com/detail/9NB0C23C6SBK) • [Observer Student](https://apps.microsoft.com/detail/9NNJ78GZVPBX) • **Platform:** Windows 10 & 11 (64-bit)  
+**Editions:** Observer Faculty (teacher PC: free download, works fully for a free week with no card, then a yearly subscription) • Observer Student (student PCs, free)  
 **Technology Stack:** Tauri v2, Rust (MSVC), WebView2  
-**Privacy:** [Privacy Policy](https://github.com/dsvakola/observer/blob/main/PRIVACY.md)
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/observer/blob/main/PRIVACY.md) • **Licence:** Proprietary, all rights reserved ([LICENSE](https://github.com/dsvakola/observer/blob/main/LICENSE))
 
 #### 📖 Overview
 
@@ -117,6 +117,8 @@ Everything stays inside the school's own network: no internet is needed, and eve
 | Main Window | Big Live View |
 |:---:|:---:|
 | ![Observer main window](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-main.webp) | ![Observer big live view](https://raw.githubusercontent.com/dsvakola/observer/main/assets/f-viewer.webp) |
+
+**Get started:** install Observer Faculty on the teacher PC and Observer Student on each student PC (or `winget install 9NNJ78GZVPBX --source msstore`). In Observer Faculty press **+ Add student PCs** and type the 6-digit code into each student PC's **Join your teacher** box.
 
 ---
 
