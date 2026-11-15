@@ -9,7 +9,7 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
 ## 📑 Software Categories
 
 1. [📦 Archive & Compression Utilities](#-archive--compression-utilities)
-   - [9-zip — Windows Archive Manager](#9-zip--windows-archive-manager)
+   - [9-zip Archiver](#9-zip-archiver)
 2. [💾 Backup & Synchronization](#-backup--synchronization)
    - [Relax — Your data is safe!](#relax--your-data-is-safe)
 3. [🎓 Classroom & Education](#-classroom--education)
@@ -18,17 +18,22 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
    - [VSA Simulator — Circuit & Microcontroller Simulator](#vsa-simulator--circuit--microcontroller-simulator)
 5. [🏭 Industrial Automation & PLC Training](#-industrial-automation--plc-training)
    - [PLC & SCADA Simulator — PLC Programming, Training Panel & SCADA](#plc--scada-simulator--plc-programming-training-panel--scada)
-6. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-7. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-8. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+6. [📝 Text & Code Editors](#-text--code-editors)
+   - [Edita — Text & Code Editor](#edita--text--code-editor)
+7. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+8. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+9. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
 ## 📦 Archive & Compression Utilities
 
-### 9-zip — Windows Archive Manager
+### 9-zip Archiver
+
+<p><a href="https://apps.microsoft.com/detail/9n7vcjrqjq3w"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get 9-zip Archiver from Microsoft"/></a></p>
 
 **Source Code Repository:** [github.com/dsvakola/9-zip](https://github.com/dsvakola/9-zip)  
+**Microsoft Store:** [9-zip Archiver](https://apps.microsoft.com/detail/9n7vcjrqjq3w)  
 **SourceForge Download:** [sourceforge.net/projects/ninezip](https://sourceforge.net/projects/ninezip/)  
 **Current Version:** `v1.2.0` • **Platform:** Windows 10 & 11 (64-bit)  
 **Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
@@ -81,8 +86,10 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 
 ### Relax — Your data is safe!
 
+<p><a href="https://apps.microsoft.com/detail/9n4bplf2td95"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get Relax - Your data is safe! from Microsoft"/></a></p>
+
 **Project Page:** [github.com/dsvakola/Relax](https://github.com/dsvakola/Relax)  
-**Availability:** Coming soon to the Microsoft Store (free) • **Platform:** Windows 10 & 11 (64-bit)  
+**Microsoft Store:** [Relax - Your data is safe!](https://apps.microsoft.com/detail/9n4bplf2td95) (free) • **Platform:** Windows 10 & 11 (64-bit)  
 **Current Version:** `v2.1.0`  
 **Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
 **Privacy:** [Privacy Policy](https://github.com/dsvakola/Relax/blob/main/PRIVACY.md) • **Licence:** [NOTICE](https://github.com/dsvakola/Relax/blob/main/NOTICE.txt)
@@ -102,8 +109,10 @@ In addition to traditional formats, 9-zip introduces **`.9z`**, an innovative ar
 
 ### Observer — Classroom Monitoring & Testing
 
+<p><a href="https://apps.microsoft.com/detail/9nb0c23c6sbk"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get Observer Faculty from Microsoft"/></a> <a href="https://apps.microsoft.com/detail/9nnj78gzvpbx"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get Observer Student from Microsoft"/></a></p>
+
 **Project Page:** [github.com/dsvakola/observer](https://github.com/dsvakola/observer)  
-**Microsoft Store:** [Observer Faculty](https://apps.microsoft.com/detail/9NB0C23C6SBK) • [Observer Student](https://apps.microsoft.com/detail/9NNJ78GZVPBX) • **Platform:** Windows 10 & 11 (64-bit)  
+**Microsoft Store:** [Observer Faculty](https://apps.microsoft.com/detail/9nb0c23c6sbk) • [Observer Student](https://apps.microsoft.com/detail/9nnj78gzvpbx) • **Platform:** Windows 10 & 11 (64-bit)  
 **Editions:** Observer Faculty (teacher PC: free download, works fully for a free week with no card, then a yearly subscription) • Observer Student (student PCs, free)  
 **Technology Stack:** Tauri v2, Rust (MSVC), WebView2  
 **Privacy:** [Privacy Policy](https://github.com/dsvakola/observer/blob/main/PRIVACY.md) • **Licence:** Proprietary, all rights reserved ([LICENSE](https://github.com/dsvakola/observer/blob/main/LICENSE))
@@ -126,8 +135,10 @@ Everything stays inside the school's own network: no internet is needed, and eve
 
 ### VSA Simulator — Circuit & Microcontroller Simulator
 
+<p><a href="https://apps.microsoft.com/detail/9nqbwwfwwhn1"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get VSA Simulator from Microsoft"/></a></p>
+
 **Project Page:** [github.com/dsvakola/VSA-Simulator](https://github.com/dsvakola/VSA-Simulator)  
-**Availability:** Coming soon to the Microsoft Store • **Platform:** Windows 10 & 11 (64-bit)  
+**Microsoft Store:** [VSA Simulator](https://apps.microsoft.com/detail/9nqbwwfwwhn1) • **Platform:** Windows 10 & 11 (64-bit)  
 **Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)  
 **License:** [GNU General Public License v3.0](https://github.com/dsvakola/VSA-Simulator/blob/main/LICENSE)
 
@@ -149,8 +160,10 @@ Everything stays inside the school's own network: no internet is needed, and eve
 
 ### PLC & SCADA Simulator — PLC Programming, Training Panel & SCADA
 
+<p><a href="https://apps.microsoft.com/detail/9plgfxw1wbpf"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get PLC & SCADA Simulator from Microsoft"/></a></p>
+
 **Project Page:** [github.com/dsvakola/PLC-Simulator](https://github.com/dsvakola/PLC-Simulator)
-**Availability:** Coming soon to the Microsoft Store (free) • **Platform:** Windows 10 & 11 (64-bit)
+**Microsoft Store:** [PLC & SCADA Simulator](https://apps.microsoft.com/detail/9plgfxw1wbpf) (free) • **Platform:** Windows 10 & 11 (64-bit)
 **Current Version:** `v0.1.2`
 **Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)
 **Privacy:** [Privacy Policy](https://github.com/dsvakola/PLC-Simulator/blob/main/privacy-policy.md) • **License:** [GNU General Public License v3.0](https://github.com/dsvakola/PLC-Simulator/blob/main/LICENSE)
@@ -171,6 +184,33 @@ Everything stays inside the school's own network: no internet is needed, and eve
 | SCADA screen: tank level | SCADA screen: temperature control |
 |:---:|:---:|
 | ![SCADA tank level](assets/plc-scada-simulator/3-scada-tank-level.png) | ![SCADA temperature control](assets/plc-scada-simulator/4-scada-temperature.png) |
+
+---
+
+## 📝 Text & Code Editors
+
+### Edita — Text & Code Editor
+
+<p><a href="https://apps.microsoft.com/detail/9nx9lhr4bt68"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get Edita from Microsoft"/></a></p>
+
+**Source Code Repository:** [github.com/dsvakola/edita](https://github.com/dsvakola/edita)
+**Microsoft Store:** [Edita](https://apps.microsoft.com/detail/9nx9lhr4bt68) (free) • **Platform:** Windows 10 & 11 (64-bit)
+**Current Version:** `v1.3.1`
+**Technology Stack:** Tauri v2, Rust (MSVC), CodeMirror 6
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/edita/blob/main/PRIVACY.md) • **License:** [GNU General Public License v3.0](https://github.com/dsvakola/edita/blob/main/LICENSE)
+
+#### 📖 Overview
+
+**Edita** is a fast, simple text and code editor for students, teachers and developers. It colours C, C++, Arduino, Python, Java, JavaScript, HTML, CSS, JSON, Markdown, PHP, Rust, VB.NET and 8085/8086 assembly code, and recognises the language of a new file as you type.
+
+- **Smart editing:** automatic indentation, auto-closing brackets and quotes, word suggestions, and colour swatches with a colour picker.
+- **Work your way:** tabs, a two-column layout to compare files side by side, a Find and Replace bar, and a Command Palette (Ctrl+Shift+P).
+- **Comfortable:** Dark and Light themes, your own font, size and editor colours, and your open files reopen next time.
+- **Light and private:** a download of about 2 MB, fully offline, no account, no ads, no tracking.
+
+| Arduino code with tabs | Side-by-side view |
+|:---:|:---:|
+| ![Edita with Arduino code](https://raw.githubusercontent.com/dsvakola/edita/main/advt/screenshots/01-dark-theme-arduino-code-with-tabs.png) | ![Edita side-by-side view](https://raw.githubusercontent.com/dsvakola/edita/main/advt/screenshots/07-split-view-compare-code.png) |
 
 ---
 
