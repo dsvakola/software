@@ -18,11 +18,13 @@ A curated showcase of desktop applications, operating systems, mobile utilities,
    - [VSA Simulator — Circuit & Microcontroller Simulator](#vsa-simulator--circuit--microcontroller-simulator)
 5. [🏭 Industrial Automation & PLC Training](#-industrial-automation--plc-training)
    - [PLC & SCADA Simulator — PLC Programming, Training Panel & SCADA](#plc--scada-simulator--plc-programming-training-panel--scada)
-6. [📝 Text & Code Editors](#-text--code-editors)
+6. [🌐 Internet & Downloads](#-internet--downloads)
+   - [Reliable Download Manager — Fast, Resumable Downloads](#reliable-download-manager--fast-resumable-downloads)
+7. [📝 Text & Code Editors](#-text--code-editors)
    - [Edita — Text & Code Editor](#edita--text--code-editor)
-7. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
-8. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
-9. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
+8. [🖥️ Operating Systems & Low-Level Systems *(Coming Soon)*](#-operating-systems--low-level-systems)
+9. [📱 Mobile Applications *(Coming Soon)*](#-mobile-applications)
+10. [💼 Institutional & Business Management *(Coming Soon)*](#-institutional--business-management)
 
 ---
 
@@ -184,6 +186,33 @@ Everything stays inside the school's own network: no internet is needed, and eve
 | SCADA screen: tank level | SCADA screen: temperature control |
 |:---:|:---:|
 | ![SCADA tank level](assets/plc-scada-simulator/3-scada-tank-level.png) | ![SCADA temperature control](assets/plc-scada-simulator/4-scada-temperature.png) |
+
+---
+
+## 🌐 Internet & Downloads
+
+### Reliable Download Manager — Fast, Resumable Downloads
+
+<p><a href="https://apps.microsoft.com/detail/9nqx7f6zjt1w"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get Reliable Download Manager from Microsoft"/></a></p>
+
+**Project Page:** [github.com/dsvakola/reliable-download-manager](https://github.com/dsvakola/reliable-download-manager)
+**Microsoft Store:** [Reliable Download Manager](https://apps.microsoft.com/detail/9nqx7f6zjt1w) (free) • **Platform:** Windows 10 & 11 (64-bit); Linux (Flathub and Snapcraft) coming soon
+**Technology Stack:** Tauri v2, Rust (MSVC), Vanilla TypeScript (strict)
+**Privacy:** [Privacy Policy](https://github.com/dsvakola/reliable-download-manager/blob/main/privacy-policy.md) • **License:** [GNU General Public License v3.0](https://github.com/dsvakola/reliable-download-manager/blob/main/LICENSE)
+
+#### 📖 Overview
+
+**Reliable Download Manager** is a free download manager and accelerator with a small, familiar window. It downloads every file over up to 32 connections at once and never loses a download: after a pause, a crash, a power cut or a restart, it simply continues where it stopped.
+
+- **Fast:** each file is split into parts downloaded at the same time; a connection that finishes early takes over half of the slowest part, so the end of a download never drags.
+- **Never loses progress:** progress is saved to disk every second, interrupted downloads continue by themselves, short network cuts are retried automatically, and after a reboot a tray reminder brings back unfinished downloads.
+- **Catches links:** copy a download link anywhere and the app is ready to start it with one click.
+- **Everything in one place:** progress window with every connection shown, speed limiter, exit/sleep/turn off when done, queues with a scheduler, a site Grabber, categories and a right-click menu.
+- **Light and private:** a download of a few MB, no account, no ads, no tracking.
+
+| Main Window | Progress with Connection Details |
+|:---:|:---:|
+| ![Reliable Download Manager main window](assets/reliable-download-manager/1-main-window.png) | ![Progress window with connection details](assets/reliable-download-manager/2-progress-details.png) |
 
 ---
 
